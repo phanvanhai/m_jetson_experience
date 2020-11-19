@@ -15,6 +15,7 @@ $ ngrok tcp --region=ap 22
  Forwarding tcp://0.tcp.ap.ngrok.io:12681-> localhost:22
 ```
 Địa chỉ trên có thể lấy từ: `https://dashboard.ngrok.com/status/tunnels`
+
 6. Truy cập từ xa:
 ```$ ssh <user>@0.tcp.ap.ngrok.io -p 12681```
 
